@@ -13,8 +13,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## NPM Package Used for this Project
 
-react-router-dom, react-redux, redux-toolkit, appwrite, and @tinymce/tinymce-react
+react-router-dom, react-redux, redux-toolkit, appwrite, react-hook-form, html-react-parser, npmand @tinymce/tinymce-react
 
-npm i react-router-dom react-redux redux-toolkit appwrite @tinymce/tinymce-react
+npm i react-router-dom react-redux @reduxjs/toolkit appwrite @tinymce/tinymce-react
 
 ## How to use .env file in Vite and what is diffrent form create-react-app
