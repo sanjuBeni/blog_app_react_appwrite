@@ -28,6 +28,7 @@ function App() {
         <Header/>
         <main>
         {/* <Outlet/> */}
+        some output
         </main>
         <Footer/>
       </div>

@@ -7,6 +7,8 @@ const Header = () => {
   const authStatus = useSelector((state) => state.auth.status);
   //   const navigate = useNavigation();
 
+  // What is diff b/w useNavigate, useNavigation and link
+
   const navItems = [
     {
       name: "Home",
@@ -31,8 +33,8 @@ const Header = () => {
   ];
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
-      <Container>
+    <Container>
+      <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="https://flowbite.com/"
@@ -93,8 +95,8 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </Container>
-    </nav>
+      </nav>
+    </Container>
   );
 };
 

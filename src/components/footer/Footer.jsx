@@ -1,9 +1,11 @@
 import React from "react";
+import Container from "../container/Container";
 
 const Footer = () => {
   return (
     <footer className="bg-white dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <Container>
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com/" className="flex items-center">
@@ -180,6 +182,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
+    </Container>
       </div>
     </footer>
   );
